@@ -1,0 +1,269 @@
+body{
+   /* margin: 0 auto;*/
+
+   background: #E5E5E5;
+}
+.logo{
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    
+    width: 70%;
+   
+    
+
+}
+.botonesinicio{
+    position: absolute;
+    left: 15%;
+    top: -5%;
+   
+   }
+
+#iniciarjuego{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 24px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+
+
+    background: #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+
+}
+#agregarpalabra{
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.arriba{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    margin:   auto;
+    left: 5%;
+   
+   
+}
+.abajo{
+    width: 50%;
+    margin: auto;
+   
+}
+.munieco{
+        width: 100%;
+        position: relative;
+        top: 200px;
+        left: 200px;
+}
+.exclamacion{
+    color: #495057;
+    position: relative;
+    top: 60%;
+    left: 10%;
+}
+#mensaje{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-size: 30px;
+ 
+  
+}
+#deletreo, #numrayas, #errados{
+    
+    width: 100%;
+    font-size: 40px;
+
+    color: #0A3871;
+    text-align: center;
+    border: none;
+    background:transparent;
+
+}
+#deletreo,#numrayas, #errados:focus{
+
+    border: none;
+    outline: none;
+}
+#deletreo{
+    position: relative;
+    top: 50px;
+    left: -6px;
+}
+#errados{
+    position: relative;
+    font-size: 15px;
+    top: 15px;
+
+}
+#numrayas{
+
+    font-size: 65px;
+   
+}
+.botones{
+    position: relative;
+    width: 40%;
+    margin: 5% auto;
+   
+    
+   
+}
+#Nuevojuego{
+
+    width: 332px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#Desistir{
+
+    
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 332px;
+height: 67px;
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+
+flex: none;
+order: 1;
+flex-grow: 1;
+color:#0A3871;
+}
+
+.nuevapalabra{
+    position: absolute;
+    width: 55%;
+    height: 500px;
+    
+  
+    
+   left: 25%;
+
+   top :25%;
+}
+#nuepala{
+    position: relative;
+    background: transparent;
+    
+    left: 7%;
+    border: none;
+    width: 50%;
+    outline: none;
+
+    font-size: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    color:#0A3871;
+}
+.botonesnuevapalabra{
+    position: relative;
+    width: 70%;
+    top: 60%;
+    left:7%;
+   
+    
+
+}
+#guardarpalabra{
+    width: 332px;
+    height: 67px;
+     
+    background: #0A3871;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    
+  
+    color: #FFFFFF;
+
+}
+
+
+
+#cancelar{
+
+
+    width: 332px;
+    height: 67px;
+    
+   
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+footer{
+    
+    width: 60%;
+    position: absolute;
+   
+    top: 90%;
+    height:40px;
+    left: 30%;
+
+    
+
+}
+.logos{
+
+    margin: 0 auto;
+    
+    width: 50%;
+    
+
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+img.logos{
+
+   width: 30px;
+   height: 30px;
+    
+}
